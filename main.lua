@@ -771,7 +771,7 @@ Aimbot.ColorPicker("Fov Color", AimbotSettings.FovColor, function(Callback)
     FOV.Color = Callback
     Snaplines.Color = Callback
 end);
-Aimbot.Slider("Fov Size", {Min = 70, Max = 500, Default = AimbotSettings.FovSize, Step = 10}, function(Callback)
+Aimbot.Slider("Fov Size", {Min = 10, Max = 500, Default = AimbotSettings.FovSize, Step = 10}, function(Callback)
     AimbotSettings.FovSize = Callback
     FOV.Radius = Callback
 end);
